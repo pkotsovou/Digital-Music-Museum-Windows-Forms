@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7ECCD7F5-1C9C-4E9B-ABB3-F4AFD8492E64}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ergasia_AAY_2023_24</RootNamespace>
+    <AssemblyName>Ergasia_AAY_2023-24</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1.Designer.cs">
+      <DependentUpon>C1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="c1modal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c1modal.Designer.cs">
+      <DependentUpon>c1modal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2.Designer.cs">
+      <DependentUpon>C2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2a.Designer.cs">
+      <DependentUpon>C2a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2b.Designer.cs">
+      <DependentUpon>C2b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2c.Designer.cs">
+      <DependentUpon>C2c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2kalathi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2kalathi.Designer.cs">
+      <DependentUpon>C2kalathi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2tickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2tickets.Designer.cs">
+      <DependentUpon>C2tickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C3.Designer.cs">
+      <DependentUpon>C3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C3cafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C3cafe.Designer.cs">
+      <DependentUpon>C3cafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C4E2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C4E2.Designer.cs">
+      <DependentUpon>C4E2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C5E3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C5E3.Designer.cs">
+      <DependentUpon>C5E3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contestants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contestants.Designer.cs">
+      <DependentUpon>Contestants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Karaoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Karaoke.Designer.cs">
+      <DependentUpon>Karaoke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klimatismos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klimatismos.Designer.cs">
+      <DependentUpon>Klimatismos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lights.Designer.cs">
+      <DependentUpon>Lights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainCustomer.Designer.cs">
+      <DependentUpon>MainCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainEmployee.Designer.cs">
+      <DependentUpon>MainEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sound.Designer.cs">
+      <DependentUpon>Sound.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="C1.resx">
+      <DependentUpon>C1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c1modal.resx">
+      <DependentUpon>c1modal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2.resx">
+      <DependentUpon>C2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2a.resx">
+      <DependentUpon>C2a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2b.resx">
+      <DependentUpon>C2b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2c.resx">
+      <DependentUpon>C2c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2kalathi.resx">
+      <DependentUpon>C2kalathi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2tickets.resx">
+      <DependentUpon>C2tickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C3.resx">
+      <DependentUpon>C3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C3cafe.resx">
+      <DependentUpon>C3cafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C4E2.resx">
+      <DependentUpon>C4E2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C5E3.resx">
+      <DependentUpon>C5E3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contestants.resx">
+      <DependentUpon>Contestants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Karaoke.resx">
+      <DependentUpon>Karaoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klimatismos.resx">
+      <DependentUpon>Klimatismos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lights.resx">
+      <DependentUpon>Lights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainCustomer.resx">
+      <DependentUpon>MainCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainEmployee.resx">
+      <DependentUpon>MainEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sound.resx">
+      <DependentUpon>Sound.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginBackImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usernameLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoPassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\button1b.jpg" />
+    <None Include="bin\Debug\button1b.jpg" />
+    <None Include="bin\Debug\button1a.jpg" />
+    <None Include="bin\Debug\button3a.jpg" />
+    <None Include="bin\Debug\button3b.jpg" />
+    <None Include="bin\Debug\button4a.jpg" />
+    <None Include="bin\Debug\button4b.jpg" />
+    <None Include="bin\Debug\button2a.jpg" />
+    <None Include="bin\Debug\button2b.jpg" />
+    <None Include="bin\Debug\button5a.jpg" />
+    <None Include="bin\Debug\button5b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62222384-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concern_off.jpg" />
+    <None Include="Resources\concern_on.jpg" />
+    <None Include="Resources\cafe_off.jpg" />
+    <None Include="Resources\cafe_on.jpg" />
+    <None Include="Resources\videos_off.jpg" />
+    <None Include="Resources\videos_on.jpg" />
+    <None Include="Resources\museum_off.jpg" />
+    <Content Include="Resources\museum_on.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
